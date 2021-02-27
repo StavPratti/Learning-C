@@ -7,7 +7,7 @@ int max (int array[], int m) {
 	int array_max = array[0];
 	int i;
 
-	for (i = 1; i < m; i++) {
+	for (i = 1; i < m; i++) { //zero 0 is already the max
 		if (array[i] > array_max) {
 			array_max = array[i];
 		}
