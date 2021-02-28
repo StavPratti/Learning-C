@@ -4,7 +4,7 @@ int main() {
 
 	int c;
 
-	while ((c = getchar()) != EOF) {
+	while ((c = getchar()) != EOF) { // && c != '\n'
 		if (c >= 'a' && c <= 'z') {
 			c -= 'a' - 'A';
 
