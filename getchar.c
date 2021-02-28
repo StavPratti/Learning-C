@@ -2,7 +2,7 @@
 	
 int main() {
 
-	int c;
+	int c; // if use getchar() always int
 
 	while ((c = getchar()) != EOF) { // && c != '\n'
 		if (c >= 'a' && c <= 'z') {
