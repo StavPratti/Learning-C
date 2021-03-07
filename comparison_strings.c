@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int strcmp(const char s1[], const char s2[]) {
+int mystrcmp(const char s1[], const char s2[]) {
 
     int i = 0;
     while (s1[i] == s2[i]) {
@@ -28,7 +28,7 @@ int main() {
     printf("Give a word:\n");
     scanf("%s", word2);
 
-    int result = strcmp(word1, word2);
+    int result = mystrcmp(word1, word2);
 
     if (result < 0) {
         printf("%s < %s\n", word1, word2);
