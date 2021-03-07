@@ -9,7 +9,9 @@ int main()
     // comparing strings str1 and str2
     result = strcmp(str1, str2);
     printf("strcmp(str1, str2) = %d\n", result);
-
+    
+    //strncmp
+    
     // comparing strings str1 and str3
     result = strcmp(str1, str3);
     printf("strcmp(str1, str3) = %d\n", result);
